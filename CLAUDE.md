@@ -40,6 +40,9 @@ Can also trigger manually: GitHub → Actions → Deploy to EC2 → Run workflow
 ## Infrastructure
 
 - **EC2**: `t3.micro`, Ubuntu 26.04, `ap-southeast-2` (Sydney), IP: `3.107.234.77`
+- **Domain**: `3-107-234-77.sslip.io` (free sslip.io domain, resolves to EC2 IP)
+- **HTTPS**: Let's Encrypt cert via certbot (auto-renews, expires 2026-10-09)
+- **nginx**: reverse proxy port 80/443 → port 8000 (FastAPI)
 - **SSH key**: `~/.ssh/swiggy-bot-key.pem`
 - **App path on EC2**: `/home/ubuntu/swiggy-bot`
 - **Python venv on EC2**: `/home/ubuntu/swiggy-bot/venv`
@@ -126,8 +129,8 @@ DEEPSEEK_MODEL=deepseek-v4-pro
 GEMINI_API_KEY=...
 GEMINI_MODEL=gemma-4-31b-it
 SWIGGY_MCP_URL=https://mcp.swiggy.com
-APP_BASE_URL=http://3.107.234.77
-OAUTH_REDIRECT_BASE=http://localhost:8000   # local | http://3.107.234.77 on EC2
+APP_BASE_URL=https://3-107-234-77.sslip.io
+OAUTH_REDIRECT_BASE=http://localhost:8000   # local | https://3-107-234-77.sslip.io on EC2
 SECRET_KEY=...
 DATABASE_URL=postgresql://...
 SUPABASE_URL=https://...supabase.co
