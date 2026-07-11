@@ -1,0 +1,55 @@
+name: Deploy to EC2
+
+on:
+  push:
+    branches:
+      - prod
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy to EC2
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ubuntu
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            set -e
+
+            cd /home/ubuntu/swiggy-bot
+
+            # Pull latest code from prod branch
+            git fetch origin
+            git checkout prod
+            git pull origin prod
+
+            # Install/update dependencies
+            venv/bin/pip install -r requirements.txt -q
+
+            # Write .env from GitHub secrets
+            cat > .env << 'ENVEOF'
+            TELEGRAM_BOT_TOKEN=${{ secrets.TELEGRAM_BOT_TOKEN }}
+            DEEPSEEK_API_KEY=${{ secrets.DEEPSEEK_API_KEY }}
+            DEEPSEEK_MODEL=${{ secrets.DEEPSEEK_MODEL }}
+            GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}
+            GEMINI_MODEL=${{ secrets.GEMINI_MODEL }}
+            SWIGGY_MCP_URL=${{ secrets.SWIGGY_MCP_URL }}
+            APP_BASE_URL=${{ secrets.APP_BASE_URL }}
+            OAUTH_REDIRECT_BASE=${{ secrets.OAUTH_REDIRECT_BASE }}
+            SECRET_KEY=${{ secrets.SECRET_KEY }}
+            SUPABASE_URL=${{ secrets.SUPABASE_URL }}
+            SUPABASE_KEY=${{ secrets.SUPABASE_KEY }}
+            DATABASE_URL=${{ secrets.DATABASE_URL }}
+            DATABASE_PASSWORD=${{ secrets.DATABASE_PASSWORD }}
+            ENVEOF
+
+            # Restart the service
+            sudo systemctl restart swiggy-bot
+            sudo systemctl is-active --quiet swiggy-bot && echo "Service is running" || (echo "Service failed to start" && sudo journalctl -u swiggy-bot --no-pager -n 30 && exit 1)

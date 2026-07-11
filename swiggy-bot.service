@@ -1,0 +1,17 @@
+[Unit]
+Description=Swiggy Flat Bot
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/swiggy-bot
+EnvironmentFile=/home/ubuntu/swiggy-bot/.env
+ExecStart=/home/ubuntu/swiggy-bot/venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8000
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
