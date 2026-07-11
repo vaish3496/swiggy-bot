@@ -4,11 +4,11 @@ Telegram-based shared grocery ordering bot for a flat, backed by Swiggy Instamar
 
 ## Stack
 
-- **Python** (conda env: `swiggy`)
+- **Python 3.11** (conda env: `swiggy`)
 - **FastAPI** — server + OAuth callback
 - **Telegram** (`python-telegram-bot`) — group chat bot via polling
 - **LangGraph** (`StateGraph`) — agent orchestration: router → cart/order/info/converse nodes
-- **DeepSeek** (`deepseek-v4-pro`) — all LLM calls: intent routing (JSON mode), variant picking, item removal, search query resolution
+- **DeepSeek** (`deepseek-v4-pro`) — all LLM calls via direct `httpx` to `https://api.deepseek.com` (no OpenAI SDK)
 - **Swiggy MCP** — `https://mcp.swiggy.com/im` (Instamart), OAuth 2.1 + PKCE
 - **APScheduler** — one-time and recurring order scheduling (IST timezone)
 - **Supabase (PostgreSQL)** via asyncpg — `DATABASE_URL` in `.env`
@@ -21,7 +21,45 @@ Telegram-based shared grocery ordering bot for a flat, backed by Swiggy Instamar
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
-OAuth redirect (`OAUTH_REDIRECT_BASE`) must be `http://localhost:8000` — Swiggy blocks ngrok for OAuth.
+- Local dev uses `swiggy_flat_test_bot` (test token in `.env`)
+- Prod uses the real bot token (in `.prod.env` and GitHub Secrets)
+- **Never run both locally and EC2 at the same time** — Telegram only allows one polling connection per token
+
+## Branch Strategy & CI/CD
+
+- `main` — development branch, push freely
+- `prod` — production branch, auto-deploys to EC2 on every push via GitHub Actions
+
+**Deploy flow:**
+```
+push/merge to prod → GitHub Actions (.github/workflows/deploy.yml) → SSH into EC2 → git pull → pip install → systemctl restart swiggy-bot
+```
+
+Can also trigger manually: GitHub → Actions → Deploy to EC2 → Run workflow.
+
+## Infrastructure
+
+- **EC2**: `t3.micro`, Ubuntu 26.04, `ap-southeast-2` (Sydney), IP: `3.107.234.77`
+- **SSH key**: `~/.ssh/swiggy-bot-key.pem`
+- **App path on EC2**: `/home/ubuntu/swiggy-bot`
+- **Python venv on EC2**: `/home/ubuntu/swiggy-bot/venv`
+- **Systemd service**: `swiggy-bot` (auto-starts on boot, auto-restarts on crash)
+- **Security group**: `sg-0601066a3084887de` (`launch-wizard-1`) — ports 22, 80, 443 open
+
+### Useful EC2 commands
+```bash
+# SSH in
+ssh -i ~/.ssh/swiggy-bot-key.pem ubuntu@3.107.234.77
+
+# View live logs
+sudo journalctl -u swiggy-bot -f
+
+# Restart service
+sudo systemctl restart swiggy-bot
+
+# Check status
+sudo systemctl status swiggy-bot
+```
 
 ## File Map
 
@@ -30,7 +68,7 @@ app/
 ├── main.py              FastAPI app, startup/shutdown, mounts routes
 ├── config.py            All env var loading
 ├── swiggy/
-│   └── client.py        All 12 MCP tool wrappers
+│   └── client.py        All 12 MCP tool wrappers (call_tool via httpx)
 ├── db/
 │   ├── connection.py    asyncpg pool, init_db (CREATE TABLE IF NOT EXISTS)
 │   ├── flats.py         Flat CRUD
@@ -57,15 +95,45 @@ app/
 │   └── handlers.py      _handle_message, _handle_bot_added, graph invocation
 └── scheduler/
     └── jobs.py          AsyncIOScheduler, execute_order, schedule_once/recurring, reload_schedules
+.github/
+└── workflows/
+    └── deploy.yml       GitHub Actions — deploy to EC2 on push to prod
+swiggy-bot.service       systemd unit file (installed at /etc/systemd/system/)
 ```
 
 ## Database Schema (Supabase/PostgreSQL)
 
-- `flats` — flat_id, owner_id, swiggy_access_token, swiggy_token_expires_at, default_address_id, default_address_label, created_at
+- `flats` — flat_id (Telegram chat_id), owner_id, swiggy_access_token, swiggy_token_expires_at, default_address_id, default_address_label, created_at
 - `cart_items` — flat_id, spin_id, product_name, quantity, added_by, added_at (tracking only — Swiggy is source of truth)
 - `item_preferences` — flat_id, spin_id, product_name, order_count, last_ordered_at (used to auto-pick preferred variants)
 - `scheduled_orders` — flat_id, job_id, scheduled_by, run_at, is_recurring, cron_expr, status, created_at
 - `chat_messages` — flat_id, role, content, created_at (last 100 loaded as LLM history)
+
+## Environment Variables
+
+| File | Purpose | Git |
+|------|---------|-----|
+| `.env` | Local dev (test bot token) | Ignored |
+| `.prod.env` | Prod values reference (local only) | Ignored |
+| `.env.example` | Template for new contributors | Committed |
+
+GitHub Secrets mirror `.prod.env` values and are injected into EC2 `.env` on every deploy.
+
+```
+TELEGRAM_BOT_TOKEN=...
+DEEPSEEK_API_KEY=...
+DEEPSEEK_MODEL=deepseek-v4-pro
+GEMINI_API_KEY=...
+GEMINI_MODEL=gemma-4-31b-it
+SWIGGY_MCP_URL=https://mcp.swiggy.com
+APP_BASE_URL=http://3.107.234.77
+OAUTH_REDIRECT_BASE=http://localhost:8000   # local | http://3.107.234.77 on EC2
+SECRET_KEY=...
+DATABASE_URL=postgresql://...
+SUPABASE_URL=https://...supabase.co
+SUPABASE_KEY=...
+DATABASE_PASSWORD=...
+```
 
 ## Key Behaviours
 
@@ -88,10 +156,11 @@ app/
 ### Intent parsing — DeepSeek JSON mode
 - `router_node` sends SYSTEM_PROMPT + history + user message to DeepSeek with `response_format: json_object`
 - No tool calling — model must output a strict JSON action object
+- Greetings ("hey", "hi", "hello") always route to `respond` regardless of prior conversation history (rule 7 in SYSTEM_PROMPT)
 - 429 → "Sorry, I'm a bit busy right now. Please try again in a moment!"
 - 402 → "Sorry, the bot is out of credits. Please top up DeepSeek."
 - 5xx → "Sorry, I couldn't process that. Please try again."
-- All DeepSeek calls logged to `conversation.log` in project root
+- All DeepSeek calls logged to `conversation.log` in project root (gitignored)
 
 ### Swiggy MCP
 - Endpoint: `https://mcp.swiggy.com/im`
@@ -134,31 +203,22 @@ then `track_order` is called with that ID.
 ### Search results + follow-up adds
 When `search_item` is called, results are shown as a numbered list. An `ITEMS_META::{}::END_ITEMS_META` block is saved to `chat_messages` (hidden from Telegram) so the router can extract `spinId`/`skuId` for follow-up "add option 2" messages. The `db_saved: True` flag on state tells `handlers.py` to skip re-saving the message.
 
-## Environment Variables (`.env`)
-
-```
-TELEGRAM_BOT_TOKEN=...
-DEEPSEEK_API_KEY=...
-DEEPSEEK_MODEL=deepseek-v4-pro
-GEMINI_API_KEY=...
-GEMINI_MODEL=gemma-4-31b-it
-SWIGGY_MCP_URL=https://mcp.swiggy.com
-APP_BASE_URL=https://<ngrok-url>
-OAUTH_REDIRECT_BASE=http://localhost:8000
-SECRET_KEY=...
-DATABASE_URL=postgresql://...@...supabase.com:5432/postgres
-SUPABASE_URL=https://...supabase.co
-DATABASE_PASSWORD=...
-```
-
 ## Useful Debug Queries
 
+```bash
+# View live prod logs
+ssh -i ~/.ssh/swiggy-bot-key.pem ubuntu@3.107.234.77 "sudo journalctl -u swiggy-bot -f"
+
+# Check conversation log (local)
+tail -50 /Users/vaishnav/Documents/swiggy-mcp/conversation.log
+```
+
 ```python
-# Query Supabase via asyncpg (use conda env python):
+# Query Supabase via asyncpg (prod):
 /opt/anaconda3/envs/swiggy/bin/python3 -c "
 import asyncio, asyncpg, os
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv('.prod.env')
 async def main():
     conn = await asyncpg.connect(os.getenv('DATABASE_URL'))
     rows = await conn.fetch('SELECT flat_id, owner_id, swiggy_token_expires_at, default_address_label FROM flats')
@@ -168,7 +228,10 @@ asyncio.run(main())
 "
 ```
 
-```bash
-# Check conversation log
-tail -50 /Users/vaishnav/Documents/swiggy-mcp/conversation.log
-```
+## AWS / GitHub Config
+
+- **AWS region**: `ap-southeast-2` (Sydney)
+- **AWS account ID**: `246100042194`
+- **GitHub repo**: `vaish3496/swiggy-bot` (public)
+- **GitHub Secrets**: 15 secrets set — EC2_HOST, EC2_SSH_KEY + all env vars
+- **Security group**: `sg-0601066a3084887de` — port 22 open to `0.0.0.0/0` (required for GitHub Actions SSH deploy)
