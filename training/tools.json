@@ -1,0 +1,191 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "add_items",
+      "description": "Add one or more grocery items to the shared cart. Use for any message asking to add, get, buy, or put groceries — in any language. 'daaldo'/'daal do'/'daalo' means ADD in Hindi, NOT remove. Examples: 'add milk', 'ek doodh daaldo', 'bhai 2 ande aur bread chahiye', 'get me chips and coke', 'doodh aur ande daal do'.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {"type": "string"},
+                "quantity": {"type": "integer", "default": 1}
+              },
+              "required": ["name"]
+            }
+          }
+        },
+        "required": ["items"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "remove_item",
+      "description": "Remove a specific item from the cart.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string", "description": "Name of the item to remove"}
+        },
+        "required": ["name"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "show_cart",
+      "description": "Show the current shared cart: items, quantities, who added what, bill breakdown, delivery charges, handling fee, GST, and total to pay. Use for: 'show cart', 'what's in cart', 'total price?', 'delivery charges?', 'kitna paisa lagega', 'cart dikhao', 'how much do I owe', 'bill kya hai'.",
+      "parameters": {"type": "object", "properties": {}}
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "clear_cart",
+      "description": "Remove all items from the cart and start fresh.",
+      "parameters": {"type": "object", "properties": {}}
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "search_item",
+      "description": "Search for a product on Swiggy Instamart. Use for price queries, availability checks, browsing variants or brands. Examples: 'what's the price of X', 'do you have X?', 'show me options for X', 'how much is X', 'is X available', 'X ka rate kya hai', 'do you have whole wheat atta', 'what brands of milk are there'.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {"type": "string", "description": "Product search query"}
+        },
+        "required": ["query"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "place_order",
+      "description": "Place the current cart as an order immediately — only use when NO specific time is mentioned. If any time (9pm, 10:30am, etc.) is mentioned, use schedule_order_once instead.",
+      "parameters": {"type": "object", "properties": {}}
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "schedule_order_once",
+      "description": "Schedule the cart to be ordered once at a specific future time. ALWAYS use this (not place_order) when any time is mentioned. Examples: 'order at 9pm', 'place order at 10:30pm tomorrow', 'schedule for 8am', 'kal subah 8 baje order karo'.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "time": {"type": "string", "description": "Time in HH:MM 24-hour format, e.g. '22:00'"},
+          "date": {"type": "string", "description": "'today', 'tomorrow', or YYYY-MM-DD. Defaults to 'today'."}
+        },
+        "required": ["time"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "schedule_order_recurring",
+      "description": "Set up a recurring/repeating order. ALWAYS use this when the user says 'every day', 'daily', 'every morning', 'every week', 'every Monday', 'roz', 'har din', 'roz raat', 'roz subah'. Examples: 'order every day at 9pm', 'daily order at 8am', 'every Monday at 10am'.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "cron": {"type": "string", "description": "Cron expression e.g. '0 22 * * *' for every day at 10pm"},
+          "description": {"type": "string", "description": "Human-readable schedule, e.g. 'every day at 10pm'"}
+        },
+        "required": ["cron", "description"]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cancel_schedule",
+      "description": "Cancel the most recent pending scheduled order.",
+      "parameters": {"type": "object", "properties": {}}
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "show_schedules",
+      "description": "Show all pending scheduled orders (one-time and recurring).",
+      "parameters": {"type": "object", "properties": {}}
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "show_flat_info",
+      "description": "Show the flat's delivery address and Swiggy connection status.",
+      "parameters": {"type": "object", "properties": {}}
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "change_address",
+      "description": "Change the flat's delivery address to a different saved Swiggy address. Use for: 'change address', 'update delivery address', 'set new address', 'address badlo'.",
+      "parameters": {"type": "object", "properties": {}}
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "track_order",
+      "description": "Track the delivery status of the most recently placed order.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "order_id": {"type": "string", "description": "Order ID to track (optional, uses latest if omitted)"}
+        }
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "show_go_to_items",
+      "description": "Show the user's frequently or recently ordered items from Swiggy. Use for: 'what do I usually order', 'show my go-to items', 'suggest items', 'what have I ordered before'.",
+      "parameters": {"type": "object", "properties": {}}
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "show_orders",
+      "description": "Show past order history from Swiggy. Use for: 'show my orders', 'past orders', 'order history', 'what did I order last time'.",
+      "parameters": {"type": "object", "properties": {}}
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "show_help",
+      "description": "Show available commands and usage examples.",
+      "parameters": {"type": "object", "properties": {}}
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "respond",
+      "description": "Send a conversational reply without taking any cart/order action. Use for: greetings, thanks, compliments, unclear or ambiguous messages, gibberish, random text, questions unrelated to grocery ordering, or anything that doesn't map to the other tools.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "message": {"type": "string", "description": "The reply to send to the user"}
+        },
+        "required": ["message"]
+      }
+    }
+  }
+]

@@ -1,0 +1,247 @@
+[
+{
+"message": "bhai amul butter kitne ka hai",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "amul butter"}
+}
+},
+{
+"message": "kaunse brand ka atta acha rahega",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "atta"}
+}
+},
+{
+"message": "what's the price of 1 litre milk?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "milk 1 litre"}
+}
+},
+{
+"message": "eggs available hai kya abhi?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "eggs"}
+}
+},
+{
+"message": "show me options for brown bread",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "brown bread"}
+}
+},
+{
+"message": "basmati rice ka rate kya chal raha hai?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "basmati rice"}
+}
+},
+{
+"message": "maggi ke variants dikhao zara",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "maggi"}
+}
+},
+{
+"message": "do you have diet coke?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "diet coke"}
+}
+},
+{
+"message": "lays chips kitne ke mil rahe hain?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "lays chips"}
+}
+},
+{
+"message": "curd 500g available hai kya?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "curd 500g"}
+}
+},
+{
+"message": "how much is good day biscuits pack?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "good day biscuits"}
+}
+},
+{
+"message": "namkeen mein kya options hain?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "namkeen"}
+}
+},
+{
+"message": "fortune rice bran oil milega kya?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "fortune rice bran oil"}
+}
+},
+{
+"message": "tata salt ka price check karo",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "tata salt"}
+}
+},
+{
+"message": "aashirvaad atta available hai?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "aashirvaad atta"}
+}
+},
+{
+"message": "paneer kitne ka hai bhai?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "paneer"}
+}
+},
+{
+"message": "show me options for peanut butter",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "peanut butter"}
+}
+},
+{
+"message": "amul cheese slices ka rate kya hai?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "amul cheese slices"}
+}
+},
+{
+"message": "toor dal available hai kya app pe?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "toor dal"}
+}
+},
+{
+"message": "which brand of rice is cheaper right now?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "rice"}
+}
+},
+{
+"message": "chai patti ke options dikhao",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "tea powder"}
+}
+},
+{
+"message": "sugar 1kg kitne ka aa raha hai?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "sugar 1kg"}
+}
+},
+{
+"message": "do you have idli dosa batter?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "idli dosa batter"}
+}
+},
+{
+"message": "bread kaunsa fresh option available hai?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "bread"}
+}
+},
+{
+"message": "milk powder ka price batao",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "milk powder"}
+}
+},
+{
+"message": "thums up available hai ya sirf coke hai?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "thums up"}
+}
+},
+{
+"message": "organic dal ke variants dikhao",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "organic dal"}
+}
+},
+{
+"message": "yogurt cups kitne ke hain?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "yogurt cups"}
+}
+},
+{
+"message": "surf excel liquid milega kya?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "surf excel liquid"}
+}
+},
+{
+"message": "floor cleaner kaunsa sasta hai?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "floor cleaner"}
+}
+},
+{
+"message": "coffee powder options show karo please",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "coffee powder"}
+}
+},
+{
+"message": "haldiram bhujia ka rate kya hai?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "haldiram bhujia"}
+}
+},
+{
+"message": "oats available hai breakfast ke liye?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "oats"}
+}
+},
+{
+"message": "tomato ketchup ke brands dikhao",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "tomato ketchup"}
+}
+},
+{
+"message": "how much is 30 eggs tray?",
+"tool_call": {
+"name": "search_item",
+"arguments": {"query": "30 eggs tray"}
+}
+}
+]

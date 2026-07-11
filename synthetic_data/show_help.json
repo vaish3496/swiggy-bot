@@ -1,0 +1,142 @@
+[
+{
+"message": "help",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "what can you do?",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "commands dikhao",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "how to use this grocery bot?",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "kya kya kar sakte ho?",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "bot kaise use karte hain?",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "instructions do",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "guide me",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "features kya hain?",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "bhai yeh bot kya kya kar sakta hai?",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "mujhe available options batao",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "Swiggy grocery bot ke commands kya hain?",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "kaise chalana hai is bot ko?",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "show me the usage instructions",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "bot se kya kya kaam ho sakte hain?",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "help menu khol do",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "available commands list karo",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "mujhe guide kar do, order kaise karna hai?",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "bot ki functionality samjhao",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+},
+{
+"message": "what are all the things I can ask this bot?",
+"tool_call": {
+"name": "show_help",
+"arguments": {}
+}
+}
+]

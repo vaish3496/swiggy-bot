@@ -1,0 +1,212 @@
+[
+{
+"message": "bhai milk hata do cart se, already le aaya hu",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "milk"}
+}
+},
+{
+"message": "eggs remove kar do, fridge mein kaafi pade hain",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "eggs"}
+}
+},
+{
+"message": "bread nikaal do cart se, kal wali abhi fresh hai",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "bread"}
+}
+},
+{
+"message": "chips cancel karo yaar, budget tight hai iss week",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "chips"}
+}
+},
+{
+"message": "coke drop kar do, koi nahi pee raha flat mein",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "coke"}
+}
+},
+{
+"message": "maggi hata do please, pantry mein 3 packets mil gaye",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "maggi"}
+}
+},
+{
+"message": "atta remove from cart, maa ne ghar se bhej diya",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "atta"}
+}
+},
+{
+"message": "rice mat lena abhi, cart se hata do",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "rice"}
+}
+},
+{
+"message": "dal nikaal do, roommate already order kar chuka hai",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "dal"}
+}
+},
+{
+"message": "butter don't want anymore, remove kar dena",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "butter"}
+}
+},
+{
+"message": "curd hata do cart mein se, dinner plan cancel ho gaya",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "curd"}
+}
+},
+{
+"message": "biscuits cancel karo, guests nahi aa rahe ab",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "biscuits"}
+}
+},
+{
+"message": "namkeen remove kar do, snacks already hain common shelf pe",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "namkeen"}
+}
+},
+{
+"message": "doodh cart se nikaal do bhai, niche dairy se le liya",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "milk"}
+}
+},
+{
+"message": "ande hata do pls, breakfast plan change ho gaya",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "eggs"}
+}
+},
+{
+"message": "butter ko drop kar do, unnecessary lag raha hai",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "butter"}
+}
+},
+{
+"message": "maggi cancel krdo cart se, Swiggy kar lenge raat ko",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "maggi"}
+}
+},
+{
+"message": "please remove bread, main already bakery se le aaya",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "bread"}
+}
+},
+{
+"message": "coke hata dena, health kick start kar rahe hain flat mein",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "coke"}
+}
+},
+{
+"message": "atta nikaal do yaar, cupboard mein ek full bag hai",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "atta"}
+}
+},
+{
+"message": "rice cancel kar do, mess se kha lenge aajkal",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "rice"}
+}
+},
+{
+"message": "dal don't want this time, cart se remove kar do",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "dal"}
+}
+},
+{
+"message": "dahi hata do, kal ka abhi pada hai fridge mein",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "curd"}
+}
+},
+{
+"message": "biscuits nikaal do cart se, sab dieting mode mein hain",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "biscuits"}
+}
+},
+{
+"message": "namkeen drop it, already too many snacks ho gaye",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "namkeen"}
+}
+},
+{
+"message": "chips remove pls, movie night shift ho gayi",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "chips"}
+}
+},
+{
+"message": "milk cancel karo, subah delivery aa jayegi",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "milk"}
+}
+},
+{
+"message": "eggs ko cart se hata do, veg week chal raha hai flat mein",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "eggs"}
+}
+},
+{
+"message": "remove curd, raita ka plan cancel ho gaya",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "curd"}
+}
+},
+{
+"message": "bhai coke nikaal do, paise bachate hain",
+"tool_call": {
+"name": "remove_item",
+"arguments": {"name": "coke"}
+}
+}
+]

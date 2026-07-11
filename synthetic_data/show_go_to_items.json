@@ -1,0 +1,177 @@
+[
+{
+"message": "show my go-to items",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "what do I usually order?",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "suggest items for our grocery order",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "frequently ordered items dikhao",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "mere favourite items dikhao",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "what should we get?",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "jo hamesha order karte hain woh dikhao",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "recommendations do",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "bhai regular groceries wali list dikha",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "Swiggy pe hum kya baar baar mangwate hain?",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "usual items suggest karo flat ke liye",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "hamare common grocery items kya hain?",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "show the items we order most often",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "go-to grocery items bata do",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "pichle orders ke basis pe kya lena chahiye?",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "flat ke favourites nikaal do",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "hum usually doodh bread ke saath kya order karte hain?",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "can you recommend our regular Swiggy items?",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "most ordered groceries show karo",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "bhai jo baar baar order hota hai woh list kar do",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "kya kya usually mangwate hain hum?",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "show our usual Swiggy grocery picks",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "reorder ke liye common items suggest kar",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "jo flat mein sabse zyada order hota hai woh dikhao",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+},
+{
+"message": "hamare go-to snacks aur groceries recommend karo",
+"tool_call": {
+"name": "show_go_to_items",
+"arguments": {}
+}
+}
+]

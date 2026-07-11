@@ -1,0 +1,142 @@
+[
+{
+"message": "change address",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "bhai address badlo delivery ka",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "delivery address update karo",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "naya address set karo",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "address change karna hai",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "different address pe deliver karo",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "Swiggy ka delivery address switch kar do",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "ab delivery dusre saved address pe chahiye",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "flat ka address replace karna hai",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "can you change the saved delivery address?",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "bhai current address mat use karo, doosra set karo",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "delivery location update kar do please",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "address badalna hai Swiggy pe",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "set a different delivery address for the flat",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "is baar groceries dusre address pe bhejo",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "purana address hatao aur naya delivery address lagao",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "flat ke liye saved address change kar do",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "Swiggy delivery address ko update karna hai",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "abhi wala address galat hai, change karo",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+},
+{
+"message": "please switch delivery to another saved Swiggy address",
+"tool_call": {
+"name": "change_address",
+"arguments": {}
+}
+}
+]

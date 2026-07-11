@@ -1,0 +1,212 @@
+[
+{
+"message": "cart dikhao bhai kitna total hua",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "show cart please, kya kya add kiya hai abhi tak?",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "kya kya hai cart mein? ek baar list dikha do",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "total kitna aa raha hai groceries ka?",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "kitna paisa lagega sab mila ke, check karo",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "bill kya hai abhi ka? delivery charges bhi batao",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "how much will it cost for the current cart?",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "what's in the cart right now?",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "cart check karo yaar, kuch extra toh nahi add ho gaya?",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "bhai ek baar cart ka bill breakdown dikha do",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "current cart ka total batao, flatmates ko split karna hai",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "cart mein abhi kaun kaun se items hain?",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "delivery charges kitne lag rahe hain?",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "show me the cart with total amount",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "cart dikha de, order place karne se pehle dekhna hai",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "bhai bill bata do, paise collect karne hain sabse",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "abhi cart value kitni ho gayi?",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "flat grocery cart ka summary bhejo pls",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "cart ka final total dikhao, delivery ke saath",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "what all is added in our grocery cart?",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "kya kya order kar rahe hain hum? cart dikhao",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "total bill check karna hai, cart open karo",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "cart mein items aur price dono dikha do",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "kitna kharcha ban raha hai groceries ka?",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "please show cart, mujhe dekhna hai kuch miss toh nahi hua",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "cart ka subtotal aur delivery charge bata do",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "bhai current cart status kya hai?",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "order se pehle bill kya aa raha hai, batao",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "cart check krdo, total zyada toh nahi ho gaya?",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+},
+{
+"message": "sab mila ke amount kitna banega? cart dikhao",
+"tool_call": {
+"name": "show_cart",
+"arguments": {}
+}
+}
+]

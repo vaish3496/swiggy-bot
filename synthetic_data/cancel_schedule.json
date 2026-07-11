@@ -1,0 +1,177 @@
+[
+{
+"message": "yaar woh scheduled order cancel kar do",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "scheduled order cancel karo, abhi plan change ho gaya",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "cancel schedule please, order baad mein decide karenge",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "jo order schedule kiya tha na, woh mat karna",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "schedule hatao bhai, flatmates ne list final nahi ki",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "scheduled order rok do please, abhi groceries nahi chahiye",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "cancel kar do woh order jo later ke liye set tha",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "bhai scheduled checkout cancel krdo",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "mat karna order scheduled wala, sabne mana kar diya",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "please remove the pending schedule for grocery order",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "jo kal ke liye set tha order, uska schedule cancel karo",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "scheduled grocery order ko cancel kar dena",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "order ka timer hata do, abhi nahi chahiye",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "bhai future order cancel kar do, hum manually karenge",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "cancel the scheduled cart order, list galat hai",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "scheduled order stop kar do yaar",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "woh jo order schedule pe hai na, usko hata do",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "pending grocery schedule cancel karna please",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "abhi scheduled order nahi chahiye, cancel karo",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "schedule wala order rok do, budget issue ho gaya",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "jo order set kiya tha later ke liye, cancel it",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "flat ka scheduled grocery order hata do",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "please don't send the scheduled order, cancel the schedule",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "bhai woh automatic order mat chalne dena, schedule cancel kar",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+},
+{
+"message": "scheduled checkout ko cancel kar do, items revise karne hain",
+"tool_call": {
+"name": "cancel_schedule",
+"arguments": {}
+}
+}
+]

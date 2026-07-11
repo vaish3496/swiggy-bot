@@ -1,0 +1,649 @@
+[
+{
+"message": "bhai aaj raat 9 baje order kar dena",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "21:00", "date": "today"}
+}
+},
+{
+"message": "kal subah 8:30 baje order schedule karo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "08:30", "date": "tomorrow"}
+}
+},
+{
+"message": "schedule for today 10pm, sab tab ghar pe honge",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "22:00", "date": "today"}
+}
+},
+{
+"message": "order at 7:15pm today please, dinner se pehle aa jayega",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "19:15", "date": "today"}
+}
+},
+{
+"message": "kal 11 baje morning mein order place karna",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "11:00", "date": "tomorrow"}
+}
+},
+{
+"message": "aaj 6:45pm pe groceries order dedo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "18:45", "date": "today"}
+}
+},
+{
+"message": "set order for 10pm today, abhi mat karna",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "22:00", "date": "today"}
+}
+},
+{
+"message": "kal raat 9 baje karna order, sab items tab tak final ho jayenge",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "21:00", "date": "tomorrow"}
+}
+},
+{
+"message": "please schedule the cart for tomorrow 5pm",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "17:00", "date": "tomorrow"}
+}
+},
+{
+"message": "aaj dopahar 2 baje checkout kar dena",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "14:00", "date": "today"}
+}
+},
+{
+"message": "kal shaam 6:30 ko order karo bhai",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "18:30", "date": "tomorrow"}
+}
+},
+{
+"message": "today 9:45pm pe order bhej dena",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "21:45", "date": "today"}
+}
+},
+{
+"message": "cart ko kal subah 7 baje order kar dena",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "07:00", "date": "tomorrow"}
+}
+},
+{
+"message": "aaj 4:30pm ke liye order schedule kar do",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "16:30", "date": "today"}
+}
+},
+{
+"message": "order today at 8pm, flatmates tab available hain",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "20:00", "date": "today"}
+}
+},
+{
+"message": "kal 10:30am par grocery order laga dena",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "10:30", "date": "tomorrow"}
+}
+},
+{
+"message": "aaj raat 11 baje place order karna, please",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "23:00", "date": "today"}
+}
+},
+{
+"message": "tomorrow 1pm checkout kar dena, lunch ke baad",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "13:00", "date": "tomorrow"}
+}
+},
+{
+"message": "kal 8:15pm ko cart order kar do",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "20:15", "date": "tomorrow"}
+}
+},
+{
+"message": "aaj 12:30pm pe order dedo, office break mein dekh lunga",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "12:30", "date": "today"}
+}
+},
+{
+"message": "schedule order for tomorrow morning 9:00",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "09:00", "date": "tomorrow"}
+}
+},
+{
+"message": "aaj shaam 5 baje le lena cart wala order",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "17:00", "date": "today"}
+}
+},
+{
+"message": "kal raat ko 10:45 baje order karna, abhi wait karo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "22:45", "date": "tomorrow"}
+}
+},
+{
+"message": "please set the grocery order for today 3:15pm",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "15:15", "date": "today"}
+}
+},
+{
+"message": "kal subah 6:30 baje order bhej dena, milk jaldi chahiye",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "06:30", "date": "tomorrow"}
+}
+},
+{
+"message": "aaj 7 baje karna order, sabne list confirm kar di",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "19:00", "date": "today"}
+}
+},
+{
+"message": "tomorrow at 4:45pm place the order for the flat",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "16:45", "date": "tomorrow"}
+}
+},
+{
+"message": "aaj raat 9:30 ko checkout kar dena",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "21:30", "date": "today"}
+}
+},
+{
+"message": "kal 12 baje afternoon mein order schedule kar do",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "12:00", "date": "tomorrow"}
+}
+},
+{
+"message": "today 6pm par cart ka order place karo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "18:00", "date": "today"}
+}
+},
+{
+"message": "kal shaam 7:30 baje groceries le lo order se",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "19:30", "date": "tomorrow"}
+}
+},
+{
+"message": "aaj 10:30am pe order kar do, delivery slot mil jayega",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "10:30", "date": "today"}
+}
+},
+{
+"message": "set order for tomorrow 8pm, please don't place it now",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "20:00", "date": "tomorrow"}
+}
+},
+{
+"message": "aaj 1:45pm ko order daal dena bhai",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "13:45", "date": "today"}
+}
+},
+{
+"message": "kal 9 baje karna order, morning wala slot choose karna",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {"time": "09:00", "date": "tomorrow"}
+}
+}
+
+,{
+"message": "kal subah 8 baje milk aur bread order kar dena",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "08:00",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj raat 10 baje grocery order schedule karo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "22:00",
+"date": "today"
+}
+}
+},
+{
+"message": "kal shaam 6:30 ko vegetables order karna",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "18:30",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj dopahar 2 baje fruits mangwa do",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "14:00",
+"date": "today"
+}
+}
+},
+{
+"message": "kal 9 baje flat ke liye snacks order place kar do",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "21:00",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj subah 8:15 baje eggs aur curd order karo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "08:15",
+"date": "today"
+}
+}
+},
+{
+"message": "kal raat 10 baje atta aur rice order karna",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "22:00",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj shaam 6 baje chai supplies le lena",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "18:00",
+"date": "today"
+}
+}
+},
+{
+"message": "kal dopahar 2:45 baje pantry items order set karo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "14:45",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj 9 baje groceries order kar dena",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "21:00",
+"date": "today"
+}
+}
+},
+{
+"message": "kal subah 7:30 baje milk packets order kar do",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "07:30",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj 10 baje raat bottled water order karna",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "22:00",
+"date": "today"
+}
+}
+},
+{
+"message": "kal morning 8:40 pe breakfast groceries order karo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "08:40",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj afternoon 2:10 pe sabzi order laga do",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "14:10",
+"date": "today"
+}
+}
+},
+{
+"message": "kal evening 6 pm ko detergent aur soap order karna",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "18:00",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj subah 8 baje bread and butter order set karo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "08:00",
+"date": "today"
+}
+}
+},
+{
+"message": "kal raat 11:15 baje midnight snacks order kar do",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "23:15",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj shaam 7:05 baje dinner groceries mangwa lena",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "19:05",
+"date": "today"
+}
+}
+},
+{
+"message": "kal dopahar 1:20 baje curd aur paneer order karo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "13:20",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj raat 9:30 baje cold drinks order kar dena",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "21:30",
+"date": "today"
+}
+}
+},
+{
+"message": "kal subah 6:45 baje fruits basket order place karo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "06:45",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj 8 baje subah oats aur milk order karna",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "08:00",
+"date": "today"
+}
+}
+},
+{
+"message": "kal 10 baje raat kitchen supplies order kar do",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "22:00",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj dopahar 2 baje lunch ingredients order karo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "14:00",
+"date": "today"
+}
+}
+},
+{
+"message": "kal shaam 5:45 baje chips aur namkeen order laga dena",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "17:45",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj 9 o'clock pe grocery cart checkout kar dena",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "21:00",
+"date": "today"
+}
+}
+},
+{
+"message": "kal subah 9 baje fresh juice aur fruit order karna",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "09:00",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj raat 10:20 baje ice cream order kar do",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "22:20",
+"date": "today"
+}
+}
+},
+{
+"message": "kal dopahar 2 baje rice, dal, and oil order karo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "14:00",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj shaam 6:30 baje sabzi aur coriander order karna",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "18:30",
+"date": "today"
+}
+}
+},
+{
+"message": "kal raat 8:50 baje flat snacks order set kar do",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "20:50",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj subah 7:10 baje doodh aur dahi order kar do",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "07:10",
+"date": "today"
+}
+}
+},
+{
+"message": "kal 9:15 baje cleaning items order karna",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "21:15",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj evening 6:10 pe fruits order place karo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "18:10",
+"date": "today"
+}
+}
+},
+{
+"message": "kal morning 10:05 pe breakfast items order kar dena",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "10:05",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj dopahar 12:30 baje vegetables order karna",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "12:30",
+"date": "today"
+}
+}
+},
+{
+"message": "kal shaam 6 baje noodles aur sauces order kar do",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "18:00",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj raat 11 baje late grocery order checkout karna",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "23:00",
+"date": "today"
+}
+}
+},
+{
+"message": "kal subah 8 baje tea, sugar, and biscuits order karo",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "08:00",
+"date": "tomorrow"
+}
+}
+},
+{
+"message": "aaj 10:45 baje raat ko flat ke liye water cans order kar do",
+"tool_call": {
+"name": "schedule_order_once",
+"arguments": {
+"time": "22:45",
+"date": "today"
+}
+}
+}
+]
+

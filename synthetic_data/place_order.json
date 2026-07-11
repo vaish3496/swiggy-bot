@@ -1,0 +1,212 @@
+[
+{
+"message": "bhai abhi order kar do",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "place order please, sab confirm hai",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "order now guys, cart ready hai",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "cart final hai, order place karo",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "checkout kar do yaar, sabka approval aa gaya",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "order dedo bhai, aur kuch add nahi karna",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "haan bas yehi le lo, order karo",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "bhejo order, flat ke groceries sorted hain",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "grocery order kar do please, list complete hai",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "abhi checkout kar do, sab items sahi hain",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "order laga do bhai, cart mein jo hai wahi chahiye",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "cart ko place order kar do, no more changes",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "guys order karo, sabne paisa bhej diya",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "please send the order, cart looks fine",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "final kar do aur order place karo",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "le lo ye sab, order kar dena",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "ab order dedo, sab flatmates agree hain",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "cart checkout please, groceries khatam ho rahi hain",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "bhai order place krdo, enough discussion ho gaya",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "okay order now, don't wait",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "order bhej do yaar, cart ready hai",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "checkout maar do bhai, sab items confirm",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "bas ab groceries order kar do",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "current cart ka order daal do",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "order proceed karo, bill okay hai",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "haan bhai place the order",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "cart mein jo hai sab order kar do",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "abhi le lo sab, order complete karo",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "please order these groceries for the flat",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+},
+{
+"message": "order confirm kar do, everyone is okay with it",
+"tool_call": {
+"name": "place_order",
+"arguments": {}
+}
+}
+]

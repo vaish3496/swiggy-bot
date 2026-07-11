@@ -1,0 +1,54 @@
+# Environment variables - NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.conda/
+
+# Logs
+*.log
+conversation.log
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# Claude Code
+.claude/
+
+# AI model blobs (large binary files)
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db

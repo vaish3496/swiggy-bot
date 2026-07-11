@@ -1,0 +1,177 @@
+[
+{
+"message": "bhai kaunse orders scheduled hain abhi",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "show schedules please, koi order pending hai kya?",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "scheduled orders dikhao zara",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "kab ka order set hai cart mein?",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "pending schedules batao, kuch auto order laga hua hai kya?",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "recurring orders dikhao bhai, flat ka kya set hai?",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "order schedule list bhejo please",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "kya koi grocery order future ke liye scheduled hai?",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "cart ke scheduled orders check karo",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "bhai schedule status kya hai groceries ka?",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "show me all pending grocery schedules",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "jo bhi orders set kiye hain, sab dikha do",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "flat ke recurring aur one-time orders ka list chahiye",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "scheduled order ka timing batao yaar",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "koi order kal ya daily ke liye set hai kya, dikhao",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "please show scheduled orders for our flat",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "schedule mein kya kya orders pade hain?",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "grocery bot mein pending schedule check karna hai",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "bhai auto order kab kab chalega, batao",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "scheduled orders ka full summary dikha do",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "kya koi repeat order laga hua hai? schedules dikhao",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "upcoming grocery orders show karo",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "order kab trigger hoga, schedule dekhna hai",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "saare scheduled cart orders dikha do please",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+},
+{
+"message": "flatmates ke liye jo schedules set hain woh list karo",
+"tool_call": {
+"name": "show_schedules",
+"arguments": {}
+}
+}
+]

@@ -1,0 +1,177 @@
+[
+{
+"message": "show orders",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "past orders dikhao",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "order history batao",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "pichle orders dikhao",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "what did we order last time?",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "purane orders dikha do",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "kya kya order kiya tha pichli baar?",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "Swiggy ke old grocery orders show karo",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "last time flat ke liye kya mangwaya tha?",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "can you show our previous Swiggy orders?",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "bhai order history khol do",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "pichli baar ka grocery order dekhna hai",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "show me what we ordered before",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "humne pehle kya kya groceries order ki thi?",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "old orders list dikhao please",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "Swiggy order history check karna hai",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "previous grocery orders ka record dikha",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "last few orders bata do",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "flat ke purane Swiggy orders kya the?",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "pichle mahine kya kya order kiya tha?",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "show order history from Swiggy",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "hamare past grocery orders list karo",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "last order mein kya items the?",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "pehle wale Swiggy orders nikaal do",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+},
+{
+"message": "kya kya order kiya tha ab tak, history dikhao",
+"tool_call": {
+"name": "show_orders",
+"arguments": {}
+}
+}
+]

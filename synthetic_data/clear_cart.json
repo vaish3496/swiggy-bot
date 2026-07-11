@@ -1,0 +1,177 @@
+[
+{
+"message": "yaar cart khali kar do sab kuch",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "clear cart please, galat items add ho gaye hain",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "sab hata do cart se, order restart karna hai",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "empty the cart guys, fresh list banayenge",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "cart reset karo bhai, sab confused ho gaya",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "remove everything from the grocery cart",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "saari cheezein hata do, new order banate hain",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "start fresh karte hain, cart poora clear kar do",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "cart mein jo bhi hai sab nikaal do abhi",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "bhai full cart clear krdo, flatmates ne duplicate add kar diya",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "kuch bhi mat rakho cart mein, sab delete kar do",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "purana cart cancel karo, saara samaan hata do",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "wipe the cart clean, new groceries add karenge",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "cart ko zero kar do yaar",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "sab items remove kar do, abhi order nahi karna",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "cart khali karo, budget dobara decide karenge",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "please clear the whole cart, kal order karenge",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "jo jo add hua hai sab hata do cart se",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "flat ka grocery cart reset kar do pls",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "cart saaf kar do, fresh start chahiye",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "sab kuch remove karo cart se, list galat ban gayi",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "cart clear maar do bhai, order cancel ho gaya",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "empty kar do cart, abhi koi grocery nahi chahiye",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "poora cart hata do, roommates se confirm karke add karenge",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+},
+{
+"message": "clear cart and start fresh, sab items galat hain",
+"tool_call": {
+"name": "clear_cart",
+"arguments": {}
+}
+}
+]

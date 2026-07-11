@@ -1,0 +1,362 @@
+[
+{
+"message": "hey",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Hey! Kaise ho? 😊"
+}
+}
+},
+{
+"message": "thanks bot",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "You're welcome! 😄"
+}
+}
+},
+{
+"message": "tu bahut acha hai",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Aww thanks yaar! 😄"
+}
+}
+},
+{
+"message": "what is 2+2",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "2 + 2 = 4 🙂"
+}
+}
+},
+{
+"message": "aaj mausam kaisa hai",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Mausam ka exact update mere paas nahi hai, but hope it's pleasant! ☀️"
+}
+}
+},
+{
+"message": "nice",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Nice indeed 😄"
+}
+}
+},
+{
+"message": "ok done",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Perfect, done samjho 👍"
+}
+}
+},
+{
+"message": "haha",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Haha 😄"
+}
+}
+},
+{
+"message": "lol",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Lol 😂"
+}
+}
+},
+{
+"message": "bhai kya haal hai",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Sab badhiya bhai, tum batao?"
+}
+}
+},
+{
+"message": "good morning",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Good morning! Hope your day goes great ☀️"
+}
+}
+},
+{
+"message": "namaste",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Namaste! 🙏"
+}
+}
+},
+{
+"message": "shukriya",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Koi baat nahi, khushi hui help karke 🙂"
+}
+}
+},
+{
+"message": "you're the best",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Thank you! You're awesome too 😄"
+}
+}
+},
+{
+"message": "aksdjf",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Haha, ye thoda random laga 😄"
+}
+}
+},
+{
+"message": "hello ji",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Hello ji! 😊"
+}
+}
+},
+{
+"message": "kya kar rahe ho",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Bas yahin hoon, ready to help 😄"
+}
+}
+},
+{
+"message": "good night bot",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Good night! Sweet dreams 🌙"
+}
+}
+},
+{
+"message": "bye",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Bye! Phir milte hain 👋"
+}
+}
+},
+{
+"message": "kaise ho dost",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Main badhiya hoon dost, tum kaise ho?"
+}
+}
+},
+{
+"message": "bot bhai mast ho tum",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Haha thanks bhai, mast rehna 😄"
+}
+}
+},
+{
+"message": "tell me a joke",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Why did the phone smile? Because it got a good charge 😄"
+}
+}
+},
+{
+"message": "kuch funny bolo",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Funny mode on: main bot hoon, par vibes human wali 😄"
+}
+}
+},
+{
+"message": "hmm",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Hmm, soch rahe ho kya? 🙂"
+}
+}
+},
+{
+"message": "okay thanks",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Anytime! 👍"
+}
+}
+},
+{
+"message": "wah bhai",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Wah wah 😄"
+}
+}
+},
+{
+"message": "good evening",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Good evening! Hope you're doing well 🌆"
+}
+}
+},
+{
+"message": "sup",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Not much, just hanging around 😄"
+}
+}
+},
+{
+"message": "are you alive",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Bot-style alive and ready 😄"
+}
+}
+},
+{
+"message": "tumhara naam kya hai",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Main tumhara friendly flat bot hoon 🙂"
+}
+}
+},
+{
+"message": "asdfghjkl",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Keyboard ne dance kar diya kya? 😄"
+}
+}
+},
+{
+"message": "kya scene hai",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Scene chill hai 😎"
+}
+}
+},
+{
+"message": "I am bored",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Boredom tough hai, kuch fun karte hain 😄"
+}
+}
+},
+{
+"message": "mujhe neend aa rahi hai",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Toh thoda rest le lo, zaroori hai 😴"
+}
+}
+},
+{
+"message": "you are cute",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Haha thank you, that's sweet 😄"
+}
+}
+},
+{
+"message": "testing testing",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Test received loud and clear ✅"
+}
+}
+},
+{
+"message": "kya tum hindi samajhte ho",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Haan ji, Hindi aur Hinglish dono samajhta hoon 🙂"
+}
+}
+},
+{
+"message": "nice work yaar",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Thanks yaar, appreciate it! 😄"
+}
+}
+},
+{
+"message": "random baat karte hain",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Bilkul, random chat bhi chalegi 😄"
+}
+}
+},
+{
+"message": "jhgjhgjhg",
+"tool_call": {
+"name": "respond",
+"arguments": {
+"message": "Ye toh full gibberish vibes hain 😄"
+}
+}
+}
+]

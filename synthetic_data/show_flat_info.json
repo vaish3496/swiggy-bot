@@ -1,0 +1,142 @@
+[
+{
+"message": "show flat info",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "abhi kaunsa address set hai?",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "delivery address kya hai?",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "swiggy connected hai kya?",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "flat details dikhao",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "current address batao",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "bhai delivery ke liye kaunsa flat address saved hai?",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "please show the flat's delivery address and Swiggy status",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "hamara Swiggy account linked hai ya nahi?",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "flat ka info de do",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "kis address pe groceries deliver hongi?",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "can you show our saved address?",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "Swiggy connection status check karo",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "flat ka current delivery setup kya hai?",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "address aur swiggy link status dikha do",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "hamare flat ki details kya saved hain?",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "delivery address confirm karna hai",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "is the flat connected to Swiggy?",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "bhai address galat toh nahi set hai, dikhao zara",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+},
+{
+"message": "flat info mein address aur Swiggy connected status show karo",
+"tool_call": {
+"name": "show_flat_info",
+"arguments": {}
+}
+}
+]

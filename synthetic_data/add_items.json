@@ -1,0 +1,1455 @@
+[
+  {
+    "message": "bhai 2 ande aur ek doodh daal do cart mein",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "eggs",
+            "quantity": 2
+          },
+          {
+            "name": "milk",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "please add bread, butter and 1 packet chips for the flat",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "bread",
+            "quantity": 1
+          },
+          {
+            "name": "butter",
+            "quantity": 1
+          },
+          {
+            "name": "chips",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "kal breakfast ke liye curd chahiye, 500g daaldo",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "curd 500g",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "add 2 maggi packs and one coke pls",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "maggi",
+            "quantity": 2
+          },
+          {
+            "name": "coke",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "atta khatam ho gaya hai, 5kg put kar do cart me",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "atta 5kg",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "guys rice bhi le aao, 2 kilo enough hai",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "rice 2kg",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "dal aur chawal dono daalo, 1kg each",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "dal 1kg",
+            "quantity": 1
+          },
+          {
+            "name": "rice 1kg",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "get me 1 milk packet and some biscuits",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "milk",
+            "quantity": 1
+          },
+          {
+            "name": "biscuits",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "namkeen add kar do yaar, guests aa rahe hain",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "namkeen",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "fridge mein butter nahi hai, ek butter daal do",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "butter",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "2 coke bottles aur 3 chips packets add karo movie night ke liye",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "coke",
+            "quantity": 2
+          },
+          {
+            "name": "chips",
+            "quantity": 3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "ande khatam, 12 eggs daal do pls",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "eggs",
+            "quantity": 12
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "add half kg dal and 1 kg atta",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "dal 0.5kg",
+            "quantity": 1
+          },
+          {
+            "name": "atta 1kg",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "doodh 2 packet daalo, morning chai ke liye",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "milk",
+            "quantity": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "bread le aao ek, aur butter bhi small wala",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "bread",
+            "quantity": 1
+          },
+          {
+            "name": "butter",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "can someone add curd and biscuits to the cart?",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "curd",
+            "quantity": 1
+          },
+          {
+            "name": "biscuits",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "maggi chahiye 4 pack, late night scenes",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "maggi",
+            "quantity": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "pls put 1kg rice, 1kg dal, and 2 milk packets",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "rice 1kg",
+            "quantity": 1
+          },
+          {
+            "name": "dal 1kg",
+            "quantity": 1
+          },
+          {
+            "name": "milk",
+            "quantity": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "bhai cart me chips daalna, blue lays wala chalega",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "chips",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "ek packet namkeen aur ek coke add krdo",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "namkeen",
+            "quantity": 1
+          },
+          {
+            "name": "coke",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "ghar ke liye atta rice dal sab daal do, 1kg each",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "atta 1kg",
+            "quantity": 1
+          },
+          {
+            "name": "rice 1kg",
+            "quantity": 1
+          },
+          {
+            "name": "dal 1kg",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "add 6 eggs, one bread loaf and butter",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "eggs",
+            "quantity": 6
+          },
+          {
+            "name": "bread",
+            "quantity": 1
+          },
+          {
+            "name": "butter",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "curd daalo 2 cups, raita banana hai",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "curd",
+            "quantity": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "biscuits bhi le aao na, chai ke saath kuch nahi hai",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "biscuits",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "put maggi, coke, chips in cart for tonight",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "maggi",
+            "quantity": 1
+          },
+          {
+            "name": "coke",
+            "quantity": 1
+          },
+          {
+            "name": "chips",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "milk add karo 1 litre, aur eggs 4",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "milk 1L",
+            "quantity": 1
+          },
+          {
+            "name": "eggs",
+            "quantity": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "faltu mat bhoolna, namkeen 2 packet daal dena",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "namkeen",
+            "quantity": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "need 2 breads for tomorrow breakfast, add pls",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "bread",
+            "quantity": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "bhai 1 kg chawal and half kg dal cart mein daalo",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "rice 1kg",
+            "quantity": 1
+          },
+          {
+            "name": "dal 0.5kg",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "add coke 2L bottle, chips 2 packets, biscuits 1 pack",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "coke 2L",
+            "quantity": 1
+          },
+          {
+            "name": "chips",
+            "quantity": 2
+          },
+          {
+            "name": "biscuits",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "dahi chahiye dinner ke liye, 1 tub daal do",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "curd",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "ande aur bread add krna, omelette banaenge",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "eggs",
+            "quantity": 1
+          },
+          {
+            "name": "bread",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "please daal do 3 maggi, 1 namkeen, aur butter",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "maggi",
+            "quantity": 3
+          },
+          {
+            "name": "namkeen",
+            "quantity": 1
+          },
+          {
+            "name": "butter",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "rice is almost over, get 5kg bag this time",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "rice 5kg",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "flat ke liye 2 doodh, 1 bread, 10 eggs add karo",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "milk",
+            "quantity": 2
+          },
+          {
+            "name": "bread",
+            "quantity": 1
+          },
+          {
+            "name": "eggs",
+            "quantity": 10
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "atta mat bhoolna, 10kg wala add kar do",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "atta 10kg",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "chai snacks ke liye biscuits aur namkeen daalo",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "biscuits",
+            "quantity": 1
+          },
+          {
+            "name": "namkeen",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "guys coke bhi add kar dena, 3 cans",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "coke",
+            "quantity": 3
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "maggi aur chips daaldo jaldi, cravings ho rahi",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "maggi",
+            "quantity": 1
+          },
+          {
+            "name": "chips",
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  },
+  {
+    "message": "need curd 500g, butter 1, and milk 2 packets",
+    "tool_call": {
+      "name": "add_items",
+      "arguments": {
+        "items": [
+          {
+            "name": "curd 500g",
+            "quantity": 1
+          },
+          {
+            "name": "butter",
+            "quantity": 1
+          },
+          {
+            "name": "milk",
+            "quantity": 2
+          }
+        ]
+      }
+    }
+  }
+
+,{
+"message": "bhai 6 ande aur ek doodh daal do",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "eggs",
+"quantity": 6
+},
+{
+"name": "milk",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "1kg chawal aur aadha kg daal cart mein daalo",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "rice 1kg",
+"quantity": 1
+},
+{
+"name": "dal 0.5kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "flat ke liye 12 andey aur 2 packet doodh add kar do",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "eggs",
+"quantity": 12
+},
+{
+"name": "milk",
+"quantity": 2
+}
+]
+}
+}
+},
+{
+"message": "2kg atta aur 1kg namak list mein daalna",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "atta 2kg",
+"quantity": 1
+},
+{
+"name": "salt 1kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "chai ke liye chini 1kg aur chai patti 250g add karo",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "sugar 1kg",
+"quantity": 1
+},
+{
+"name": "tea 250g",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "aaj flat mein tel khatam hai, 1 litre tel aur 1kg pyaaz daal do",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "oil 1L",
+"quantity": 1
+},
+{
+"name": "onions 1kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "3 dahi aur 1 makkhan add kar de breakfast ke liye",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "curd",
+"quantity": 3
+},
+{
+"name": "butter",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "double roti 2 aur doodh 2 packets cart mein daal",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "bread",
+"quantity": 2
+},
+{
+"name": "milk",
+"quantity": 2
+}
+]
+}
+}
+},
+{
+"message": "sabzi ke liye tamatar 1kg aur aloo 2kg add karna",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "tomatoes 1kg",
+"quantity": 1
+},
+{
+"name": "potatoes 2kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "roommates ke liye 30 ande aur 3 double roti le lo",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "eggs",
+"quantity": 30
+},
+{
+"name": "bread",
+"quantity": 3
+}
+]
+}
+}
+},
+{
+"message": "5kg chawal aur 2kg daal add kar do monthly stock ke liye",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "rice 5kg",
+"quantity": 1
+},
+{
+"name": "dal 2kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "maida 1kg aur tel 2 litre cart mein daalo",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "atta 1kg",
+"quantity": 1
+},
+{
+"name": "oil 2L",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "dudh 4 packets aur dahi 2 cups add kar do",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "milk",
+"quantity": 4
+},
+{
+"name": "curd",
+"quantity": 2
+}
+]
+}
+}
+},
+{
+"message": "chai patti 500g, chini 2kg aur doodh 1 packet daal do",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "tea 500g",
+"quantity": 1
+},
+{
+"name": "sugar 2kg",
+"quantity": 1
+},
+{
+"name": "milk",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "pyaaz 2kg, tamatar 2kg, aloo 3kg add kar dena",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "onions 2kg",
+"quantity": 1
+},
+{
+"name": "tomatoes 2kg",
+"quantity": 1
+},
+{
+"name": "potatoes 3kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "anda 10 aur makkhan 2 add karo, breakfast scene hai",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "eggs",
+"quantity": 10
+},
+{
+"name": "butter",
+"quantity": 2
+}
+]
+}
+}
+},
+{
+"message": "namak 500g aur chini 500g list mein daal do",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "salt 500g",
+"quantity": 1
+},
+{
+"name": "sugar 500g",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "2 double roti, 6 ande, aur 1 makkhan add karna",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "bread",
+"quantity": 2
+},
+{
+"name": "eggs",
+"quantity": 6
+},
+{
+"name": "butter",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "kitchen ke liye atta 5kg aur chawal 5kg daal do",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "atta 5kg",
+"quantity": 1
+},
+{
+"name": "rice 5kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "daal 1kg aur tel 1 litre add karo dinner cooking ke liye",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "dal 1kg",
+"quantity": 1
+},
+{
+"name": "oil 1L",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "bhai doodh 3, dahi 1 aur double roti 1 order mein add kar",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "milk",
+"quantity": 3
+},
+{
+"name": "curd",
+"quantity": 1
+},
+{
+"name": "bread",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "chaawal 2kg aur namak 1kg khatam ho gaya, add kar do",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "rice 2kg",
+"quantity": 1
+},
+{
+"name": "salt 1kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "chai patti ek, chini ek aur makkhan ek daal dena",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "tea",
+"quantity": 1
+},
+{
+"name": "sugar",
+"quantity": 1
+},
+{
+"name": "butter",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "flat dinner ke liye 1kg pyaaz, 1kg tamatar, 2kg aloo add karo",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "onions 1kg",
+"quantity": 1
+},
+{
+"name": "tomatoes 1kg",
+"quantity": 1
+},
+{
+"name": "potatoes 2kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "12 andey aur aadha kilo makkhan add kar do brunch ke liye",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "eggs",
+"quantity": 12
+},
+{
+"name": "butter 0.5kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "tel 5 litre aur atta 10kg monthly ration mein daal do",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "oil 5L",
+"quantity": 1
+},
+{
+"name": "atta 10kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "doodh 2 packets, ande 8 aur dahi 2 add karo",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "milk",
+"quantity": 2
+},
+{
+"name": "eggs",
+"quantity": 8
+},
+{
+"name": "curd",
+"quantity": 2
+}
+]
+}
+}
+},
+{
+"message": "rice ke saath chawal 1kg nahi, bas chawal 3kg add karna",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "rice 3kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "dal tadka ke liye daal 1kg, pyaaz 1kg, tamatar 1kg add karo",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "dal 1kg",
+"quantity": 1
+},
+{
+"name": "onions 1kg",
+"quantity": 1
+},
+{
+"name": "tomatoes 1kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "2kg chini aur chai patti 1kg hostel wali chai ke liye add kar do",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "sugar 2kg",
+"quantity": 1
+},
+{
+"name": "tea 1kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "double roti 4 aur makkhan 2 add karo sabke breakfast ke liye",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "bread",
+"quantity": 4
+},
+{
+"name": "butter",
+"quantity": 2
+}
+]
+}
+}
+},
+{
+"message": "maida 2kg, namak 500g aur tel 1 litre daal do",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "atta 2kg",
+"quantity": 1
+},
+{
+"name": "salt 500g",
+"quantity": 1
+},
+{
+"name": "oil 1L",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "aloo 5kg aur pyaaz 3kg stock kar lo",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "potatoes 5kg",
+"quantity": 1
+},
+{
+"name": "onions 3kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "dahi 4 cups aur doodh 2 le aana cart mein",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "curd",
+"quantity": 4
+},
+{
+"name": "milk",
+"quantity": 2
+}
+]
+}
+}
+},
+{
+"message": "ande 18, double roti 2, chai patti 250g add kar do",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "eggs",
+"quantity": 18
+},
+{
+"name": "bread",
+"quantity": 2
+},
+{
+"name": "tea 250g",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "chaawal 10kg aur daal 5kg society flat ke monthly pool mein add karo",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "rice 10kg",
+"quantity": 1
+},
+{
+"name": "dal 5kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "tamatar 500g aur pyaaz 500g add kar dena omelette ke liye",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "tomatoes 500g",
+"quantity": 1
+},
+{
+"name": "onions 500g",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "dudh ek litre aur chini 1kg add karo chai night ke liye",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "milk 1L",
+"quantity": 1
+},
+{
+"name": "sugar 1kg",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "atta 3kg, aloo 2kg, aur namak 1 packet list mein daalna",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "atta 3kg",
+"quantity": 1
+},
+{
+"name": "potatoes 2kg",
+"quantity": 1
+},
+{
+"name": "salt",
+"quantity": 1
+}
+]
+}
+}
+},
+{
+"message": "flat party ke liye 24 andey, 2 makkhan aur 3 double roti add karo",
+"tool_call": {
+"name": "add_items",
+"arguments": {
+"items": [
+{
+"name": "eggs",
+"quantity": 24
+},
+{
+"name": "butter",
+"quantity": 2
+},
+{
+"name": "bread",
+"quantity": 3
+}
+]
+}
+}
+}
+]

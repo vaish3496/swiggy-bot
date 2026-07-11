@@ -1,0 +1,613 @@
+[
+{
+"message": "roz raat 10 baje order set kar do",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 22 * * *", "description": "every day at 10pm"}
+}
+},
+{
+"message": "har din subah 8 baje grocery order kar dena",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 8 * * *", "description": "every day at 8am"}
+}
+},
+{
+"message": "daily 9pm pe cart order ho jana chahiye",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 21 * * *", "description": "every day at 9pm"}
+}
+},
+{
+"message": "every morning 7:30am order place kar do for the flat",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "30 7 * * *", "description": "every day at 7:30am"}
+}
+},
+{
+"message": "every night 10:30pm checkout kar dena",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "30 22 * * *", "description": "every day at 10:30pm"}
+}
+},
+{
+"message": "every Monday 10am groceries order karo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 10 * * 1", "description": "every Monday at 10am"}
+}
+},
+{
+"message": "weekly Sunday 6pm pe flat ka order place karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 18 * * 0", "description": "every Sunday at 6pm"}
+}
+},
+{
+"message": "roz subah 9 baje milk aur basics ka order kar dena",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 9 * * *", "description": "every day at 9am"}
+}
+},
+{
+"message": "roz raat ko 9:15 baje order dedo please",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "15 21 * * *", "description": "every day at 9:15pm"}
+}
+},
+{
+"message": "set recurring order daily at 8:45pm",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "45 20 * * *", "description": "every day at 8:45pm"}
+}
+},
+{
+"message": "har Monday subah 11 baje grocery cart checkout karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 11 * * 1", "description": "every Monday at 11am"}
+}
+},
+{
+"message": "every Friday 7pm order set karo, weekend stock ke liye",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 19 * * 5", "description": "every Friday at 7pm"}
+}
+},
+{
+"message": "roz 6:30am pe order kar dena, breakfast items time pe aa jaye",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "30 6 * * *", "description": "every day at 6:30am"}
+}
+},
+{
+"message": "har din 10pm ko cart order place karo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 22 * * *", "description": "every day at 10pm"}
+}
+},
+{
+"message": "daily morning 8:15 pe grocery order bhej dena",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "15 8 * * *", "description": "every day at 8:15am"}
+}
+},
+{
+"message": "weekly Monday 9am pe order schedule kar do",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 9 * * 1", "description": "every Monday at 9am"}
+}
+},
+{
+"message": "every Wednesday at 8pm flat groceries order karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 20 * * 3", "description": "every Wednesday at 8pm"}
+}
+},
+{
+"message": "roz dopahar 1 baje order laga dena",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 13 * * *", "description": "every day at 1pm"}
+}
+},
+{
+"message": "har raat 11 baje checkout automatic kar do",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 23 * * *", "description": "every day at 11pm"}
+}
+},
+{
+"message": "every day 5pm pe order karo, office ke baad delivery aa jaye",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 17 * * *", "description": "every day at 5pm"}
+}
+},
+{
+"message": "roz shaam 7:30 ko grocery order dedo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "30 19 * * *", "description": "every day at 7:30pm"}
+}
+},
+{
+"message": "har Sunday subah 10 baje weekly groceries order karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 10 * * 0", "description": "every Sunday at 10am"}
+}
+},
+{
+"message": "every Tuesday 6:30pm cart checkout kar do",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "30 18 * * 2", "description": "every Tuesday at 6:30pm"}
+}
+},
+{
+"message": "daily raat ko 12 baje order place kar dena",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 0 * * *", "description": "every day at midnight"}
+}
+},
+{
+"message": "har din 4:45pm pe order set kar do",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "45 16 * * *", "description": "every day at 4:45pm"}
+}
+},
+{
+"message": "weekdays pe 9am order karna, Monday to Friday",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 9 * * 1-5", "description": "every weekday at 9am"}
+}
+},
+{
+"message": "roz subah 7 baje cart ka order bhejo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 7 * * *", "description": "every day at 7am"}
+}
+},
+{
+"message": "every Saturday 11:30am flat ka grocery order place karo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "30 11 * * 6", "description": "every Saturday at 11:30am"}
+}
+},
+{
+"message": "har raat 8:20 baje order kar dena, reminders nahi chahiye",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "20 20 * * *", "description": "every day at 8:20pm"}
+}
+},
+{
+"message": "daily 6pm grocery checkout set kar do for shared flat",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {"cron": "0 18 * * *", "description": "every day at 6pm"}
+}
+},
+{
+"message": "roz raat 9 baje milk aur bread order set kar do",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 21 * * *",
+"description": "every day at 9pm"
+}
+}
+},
+{
+"message": "har din subah 7:30 baje grocery order karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "30 7 * * *",
+"description": "every day at 7:30am"
+}
+}
+},
+{
+"message": "daily 8 pm pe vegetables order laga dena",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 20 * * *",
+"description": "every day at 8pm"
+}
+}
+},
+{
+"message": "every morning at 6:15 order fruits for the flat",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "15 6 * * *",
+"description": "every day at 6:15am"
+}
+}
+},
+{
+"message": "roz 9 baje grocery basket order kar do",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 21 * * *",
+"description": "every day at 9pm"
+}
+}
+},
+{
+"message": "har raat 10 baje raat ko milk order repeat karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 22 * * *",
+"description": "every day at 10pm"
+}
+}
+},
+{
+"message": "roz subah 9 baje eggs aur bread order schedule karo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 9 * * *",
+"description": "every day at 9am"
+}
+}
+},
+{
+"message": "every day at 11:45 pm order curd and milk",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "45 23 * * *",
+"description": "every day at 11:45pm"
+}
+}
+},
+{
+"message": "har subah 7 baje fresh milk mangwana",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 7 * * *",
+"description": "every day at 7am"
+}
+}
+},
+{
+"message": "roz dopahar 1 baje lunch groceries order kar dena",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 13 * * *",
+"description": "every day at 1pm"
+}
+}
+},
+{
+"message": "daily shaam 6 baje snacks aur cold drinks order karo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 18 * * *",
+"description": "every day at 6pm"
+}
+}
+},
+{
+"message": "every night at 9 o'clock set grocery order",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 21 * * *",
+"description": "every day at 9pm"
+}
+}
+},
+{
+"message": "weekly every Monday 8 am ko sabzi order karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 8 * * 1",
+"description": "every Monday at 8am"
+}
+}
+},
+{
+"message": "har Somwar shaam 6 baje household items order lagao",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 18 * * 1",
+"description": "every Monday at 6pm"
+}
+}
+},
+{
+"message": "every Friday at 7:30 pm flat ke liye snacks order kar do",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "30 19 * * 5",
+"description": "every Friday at 7:30pm"
+}
+}
+},
+{
+"message": "har Shukravaar raat 9 baje weekend groceries order karo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 21 * * 5",
+"description": "every Friday at 9pm"
+}
+}
+},
+{
+"message": "every Tuesday morning at 9 o'clock order fruits",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 9 * * 2",
+"description": "every Tuesday at 9am"
+}
+}
+},
+{
+"message": "har Mangalwar subah 7 baje doodh aur dahi order karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 7 * * 2",
+"description": "every Tuesday at 7am"
+}
+}
+},
+{
+"message": "every Wednesday 9 baje grocery order repeat karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 21 * * 3",
+"description": "every Wednesday at 9pm"
+}
+}
+},
+{
+"message": "har Budhwar dopahar 1 baje pantry refill order kar do",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 13 * * 3",
+"description": "every Wednesday at 1pm"
+}
+}
+},
+{
+"message": "every Thursday at 6:45 am order eggs and milk",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "45 6 * * 4",
+"description": "every Thursday at 6:45am"
+}
+}
+},
+{
+"message": "har Guruvaar shaam 6 baje cleaning supplies order karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 18 * * 4",
+"description": "every Thursday at 6pm"
+}
+}
+},
+{
+"message": "every Saturday 10 baje raat ko party snacks order set karo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 22 * * 6",
+"description": "every Saturday at 10pm"
+}
+}
+},
+{
+"message": "har Shanivaar subah 8:30 baje fruits aur veggies order kar do",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "30 8 * * 6",
+"description": "every Saturday at 8:30am"
+}
+}
+},
+{
+"message": "every Sunday subah 9 baje weekly grocery order lagana",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 9 * * 0",
+"description": "every Sunday at 9am"
+}
+}
+},
+{
+"message": "har Ravivaar raat 9 baje next week ka ration order karo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 21 * * 0",
+"description": "every Sunday at 9pm"
+}
+}
+},
+{
+"message": "weekly Monday and Friday shaam 6 baje milk crate order karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 18 * * 1,5",
+"description": "every Monday and Friday at 6pm"
+}
+}
+},
+{
+"message": "har Monday Wednesday Friday subah 7 baje breakfast supplies order karo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 7 * * 1,3,5",
+"description": "every Monday, Wednesday, and Friday at 7am"
+}
+}
+},
+{
+"message": "every weekend at 11 am fruits order kar do",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 11 * * 6,0",
+"description": "every Saturday and Sunday at 11am"
+}
+}
+},
+{
+"message": "har weekend raat 9 baje snacks order repeat karo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 21 * * 6,0",
+"description": "every Saturday and Sunday at 9pm"
+}
+}
+},
+{
+"message": "every weekday at 8 am milk aur bread order karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 8 * * 1-5",
+"description": "every weekday at 8am"
+}
+}
+},
+{
+"message": "har working day shaam 6 baje dinner groceries order karo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 18 * * 1-5",
+"description": "every weekday at 6pm"
+}
+}
+},
+{
+"message": "daily at 5:30 am fresh milk order schedule kar do",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "30 5 * * *",
+"description": "every day at 5:30am"
+}
+}
+},
+{
+"message": "roz raat 11:15 baje bottled water order karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "15 23 * * *",
+"description": "every day at 11:15pm"
+}
+}
+},
+{
+"message": "har din 9 o'clock pe grocery order place karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 21 * * *",
+"description": "every day at 9pm"
+}
+}
+},
+{
+"message": "every day subah 9:45 baje fruits aur curd order karo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "45 9 * * *",
+"description": "every day at 9:45am"
+}
+}
+},
+{
+"message": "weekly har Budhwar raat 8:30 baje detergent order karna",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "30 20 * * 3",
+"description": "every Wednesday at 8:30pm"
+}
+}
+},
+{
+"message": "every Monday at 10 baje raat order atta and rice",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "0 22 * * 1",
+"description": "every Monday at 10pm"
+}
+}
+},
+{
+"message": "har din shaam 7:05 baje chai supplies order kar dena",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "5 19 * * *",
+"description": "every day at 7:05pm"
+}
+}
+},
+{
+"message": "every Friday morning 6:20 par office snacks for flat order karo",
+"tool_call": {
+"name": "schedule_order_recurring",
+"arguments": {
+"cron": "20 6 * * 5",
+"description": "every Friday at 6:20am"
+}
+}
+}
+]
+
