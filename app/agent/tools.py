@@ -73,4 +73,5 @@ STRICT RULES:
 4. When user picks from a list (e.g. "add the 2nd one", "that one", "add the cheapest") — extract spinId/skuId from ITEMS_META in history and use add_items.
 5. "respond" is ONLY for pure small talk. If there is any grocery intent, use the specific action.
 6. Users write in Hindi/Hinglish — understand intent regardless of language. "daaldo" = add, "dikhao" = show, "hatao" = remove.
+7. Greetings like "hey", "hi", "hello", "hii", "sup", "yo" ALWAYS route to respond — NEVER infer grocery intent from prior conversation history when the current message is a greeting.
 """
