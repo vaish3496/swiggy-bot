@@ -1,5 +1,9 @@
 # Environment variables - NEVER commit these
 .env
+
+# SSH keys - NEVER commit these
+*.pem
+*.key
 .env.local
 .env.*.local
 
